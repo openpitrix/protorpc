@@ -1,0 +1,9 @@
+language: go
+
+go:
+  - 1.7
+  - tip
+
+before_script:
+  - go get github.com/golang/snappy
+  - go get github.com/golang/protobuf/proto
