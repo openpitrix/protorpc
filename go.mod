@@ -1,4 +1,4 @@
-module "github.com/chai2010/protorpc"
+module "openpitrix/protorpc"
 
 require (
 	"github.com/golang/protobuf" v1.0.0
